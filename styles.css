@@ -76,6 +76,7 @@ button {
 .actions a {
     color: #67b54b;
     text-decoration: none;
+    margin: 0 15px;
 }
 
 .actions button {
@@ -86,13 +87,37 @@ button {
     padding: 20px;
 }
 
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 20px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+input, button {
+    height: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 21px 20px;
+    margin-left: -10px;
+}
+
+
 .first-image {
     width: 20%;
     text-align: center;
 }
 
 .second-image {
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
